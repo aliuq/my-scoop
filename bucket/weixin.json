@@ -1,0 +1,24 @@
+﻿{
+    "version":  "2.9.5.56",
+    "##": "test [##] attribute",
+    "description": "test [description] attribute",
+    "license":  "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement",
+    "extract_dir":  "wechat",
+    "url":  "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe",
+    "depends":  "",
+    "homepage":  "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list",
+    "hash":  "",
+    "bin":  "WeChat.exe",
+    "notes": "test [notes] attribute",
+    "pre_install": ["echo \"pre_install.\""],
+    "post_install": ["echo \"post_install.\""],
+    "shortcuts": [
+        ["WeChat.exe", "sc_weixin"]
+    ],
+    "installer": {
+        "file": "WeChatSetup.exe"
+    },
+    "uninstaller": {
+        "file": "Uninstall.exe"
+    }
+}
