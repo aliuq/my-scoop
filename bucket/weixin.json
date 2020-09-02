@@ -2,9 +2,12 @@
     "version":  "2.9.5.56",
     "##": "test [##] attribute",
     "description": "test [description] attribute",
-    "license":  "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement",
+    "license":  {
+        "identifier": "Proprietary",
+        "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
+    },
     "extract_dir":  "wechat",
-    "url":  "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe",
+    "url":  "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
     "depends":  "",
     "homepage":  "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list",
     "hash":  "",
@@ -15,9 +18,6 @@
     "shortcuts": [
         ["WeChat.exe", "sc_weixin"]
     ],
-    "installer": {
-        "file": "WeChatSetup.exe"
-    },
     "uninstaller": {
         "file": "Uninstall.exe"
     }
