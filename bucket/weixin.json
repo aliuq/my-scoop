@@ -17,8 +17,5 @@
     "post_install": ["echo \"post_install.\""],
     "shortcuts": [
         ["WeChat.exe", "sc_weixin"]
-    ],
-    "uninstaller": {
-        "file": "Uninstall.exe"
-    }
+    ]
 }
