@@ -10,10 +10,11 @@
     "depends":  "",
     "homepage":  "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list",
     "hash":  "",
+    "bin": "WeChat.exe",
     "notes": "test [notes] attribute",
     "pre_install": ["echo \"pre_install.\""],
     "post_install": ["echo \"post_install.\""],
     "shortcuts": [
-        ["WeChat.exe", "sc_weixin"]
+        ["./WeChat.exe", "sc_weixin"]
     ]
 }
