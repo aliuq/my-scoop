@@ -11,7 +11,7 @@
     "depends":  "",
     "homepage":  "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list",
     "hash":  "",
-    "bin":  "WeChat.exe",
+    "bin":  ["WeChat.exe"],
     "notes": "test [notes] attribute",
     "pre_install": ["echo \"pre_install.\""],
     "post_install": ["echo \"post_install.\""],
