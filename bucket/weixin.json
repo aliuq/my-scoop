@@ -1,15 +1,12 @@
 ﻿{
-    "version":  "2.9.5.56",
-    "##": "test [##] attribute",
-    "description": "test [description] attribute",
+    "version":  "2.9.5",
+    "description": "一款即时通讯的免费应用程序",
     "license":  {
         "identifier": "Proprietary",
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
     },
     "url":  "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-    "depends":  "",
-    "homepage":  "https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list",
-    "hash":  "",
+    "homepage":  "https://pc.weixin.qq.com",
     "bin": [
         "WeChat.exe",
         [
@@ -17,7 +14,10 @@
             "weixin"
         ]
     ],
-    "notes": "test [notes] attribute",
-    "pre_install": ["echo \"pre_install.\""],
-    "post_install": ["echo \"post_install.\""]
+    "notes": "微信不保存任何用户的聊天记录，聊天内容只存储在用户的终端设备上。\n微信不会将用户的任何聊天内容用于大数据分析",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
+    ]
 }
