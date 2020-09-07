@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "2.9.5",
+    "version":  "2.9.4",
     "description": "一款即时通讯的免费应用程序",
     "license":  {
         "identifier": "Proprietary",
@@ -14,6 +14,13 @@
             "weixin"
         ]
     ],
+    "checkver": "微信 PC 版 ([\\d.]+)",
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    },
     "notes": "微信不保存任何用户的聊天记录，聊天内容只存储在用户的终端设备上。\n微信不会将用户的任何聊天内容用于大数据分析",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
