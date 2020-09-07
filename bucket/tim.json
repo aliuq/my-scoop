@@ -13,7 +13,7 @@
         "regex": "\"pcLink\":\"https://dldir1.qq.com/qqfile/qq/TIM[\\d.]+/TIM([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/TIM$majorVersion.$minorVersion.$patchVersion/TIM$version.exe#/dl.7z",
+        "url": "https://dldir1.qq.com/qqfile/qq/TIM$matchHead/TIM$version.exe#/dl.7z",
         "hash": {
             "mode": "download"
         }
