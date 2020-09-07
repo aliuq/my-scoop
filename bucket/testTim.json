@@ -34,8 +34,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://tim.qq.com/download.html",
-        "regex": "https://dldir1.qq.com/qqfile/qq/TIM(?:[\\d.]+)/(?:[\\d]+)/TIM(?<version>[\\d.]+).exe"
+        "url": "https://qzonestyle.gtimg.cn/qzone/qzactStatics/configSystem/data/1605/config1.js",
+        "regex": "\"pcLink\":\"https://dldir1.qq.com/qqfile/qq/TIM[\\d.]+/TIM([\\d.]+).exe"
     },
     "autoupdate": {
         "url": "https://dldir1.qq.com/qqfile/qq/TIM$majorVersion.$minorVersion.$patchVersion/$buildVersion/TIM$majorVersion.$minorVersion.$patchVersion.$buildVersion.exe#/dl.7z"
