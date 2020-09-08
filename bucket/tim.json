@@ -14,7 +14,7 @@
         
     ],
     "installer": {
-        "script": "TIM$version.exe"
+        "file": "TIM$version.exe"
     },
     "checkver": {
         "url": "https://qzonestyle.gtimg.cn/qzone/qzactStatics/configSystem/data/1605/config1.js",
