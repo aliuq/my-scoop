@@ -18,5 +18,9 @@
         "hash": {
             "mode": "download"
         }
-    }
+    },
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse"
+    ]
 }
