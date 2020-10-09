@@ -26,6 +26,6 @@
     },
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-        "Rename-Item \"$dir\\$version\" \"Application\""
+        "Rename-Item \"$dir\\Client\\$version\" \"Application\""
     ]
 }
